@@ -1,12 +1,12 @@
-// 1.21	2025-01-01T15:18:16.7533922	Loot Tables
+// 1.21.1	2024-08-15T17:58:19.1561716	Loot Tables
 8fc80500a47d2cce00a196fd6ff8706543f42ab7 data/mccourse/loot_table/blocks/azurite_block.json
 fd8888a769a62187bbf443f4ec37445beb35fe98 data/mccourse/loot_table/blocks/azurite_button.json
-ece9ef3be0d5a3129e9cf002e7766cebb2bc7e2f data/mccourse/loot_table/blocks/azurite_deepslate_ore.json
+64460a477be288b13297f5fad6f0063ac27410c7 data/mccourse/loot_table/blocks/azurite_deepslate_ore.json
 5d4edb7fce0427cc3f46f2237fc95e38f9dc9283 data/mccourse/loot_table/blocks/azurite_door.json
-c7a46d97715f03293d0a1683f210622d537b788c data/mccourse/loot_table/blocks/azurite_end_ore.json
+94d36c893e0bb28f040bc4cdb0fb08921d972839 data/mccourse/loot_table/blocks/azurite_end_ore.json
 411423d042c396756f25881f4289121805557edd data/mccourse/loot_table/blocks/azurite_fence.json
 9211f6c4e711b6c48f23a1596cb95fa088f7a36e data/mccourse/loot_table/blocks/azurite_fence_gate.json
-d2a141863dec79cd1274d5baa775a5bc351a0edb data/mccourse/loot_table/blocks/azurite_nether_ore.json
+70de78481031428e280f6776e79db7c6eac027b4 data/mccourse/loot_table/blocks/azurite_nether_ore.json
 23dd75d3f588d248412241147c437a726b783f59 data/mccourse/loot_table/blocks/azurite_ore.json
 71aa4f63b57b345336dee18182f962f226c49558 data/mccourse/loot_table/blocks/azurite_pressure_plate.json
 e20c45e983324407d51d631dfafffd0b6ed638c8 data/mccourse/loot_table/blocks/azurite_slab.json

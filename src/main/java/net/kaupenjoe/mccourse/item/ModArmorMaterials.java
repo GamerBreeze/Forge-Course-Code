@@ -20,11 +20,11 @@ import java.util.function.Supplier;
 public class ModArmorMaterials {
     public static final Holder<ArmorMaterial> AZURITE_ARMOR_MATERIAL = register("azurite", Util.make(new EnumMap<>(ArmorItem.Type.class),
             attribute -> {
-        attribute.put(ArmorItem.Type.BOOTS, 5);
-        attribute.put(ArmorItem.Type.LEGGINGS, 7);
-        attribute.put(ArmorItem.Type.CHESTPLATE, 9);
-        attribute.put(ArmorItem.Type.HELMET, 5);
-        attribute.put(ArmorItem.Type.BODY, 11);
+                attribute.put(ArmorItem.Type.BOOTS, 5);
+                attribute.put(ArmorItem.Type.LEGGINGS, 7);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
+                attribute.put(ArmorItem.Type.HELMET, 5);
+                attribute.put(ArmorItem.Type.BODY, 11);
             }), 15, 4f, 0.1f, () -> ModItems.AZURITE.get());
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
@@ -36,9 +36,10 @@ public class ModArmorMaterials {
         List<ArmorMaterial.Layer> layers = List.of(new ArmorMaterial.Layer(location));
 
         EnumMap<ArmorItem.Type, Integer> typeMap = new EnumMap<>(ArmorItem.Type.class);
-        for(ArmorItem.Type type : ArmorItem.Type.values()) {
+        for (ArmorItem.Type type : ArmorItem.Type.values()) {
             typeMap.put(type, typeProtection.get(type));
         }
+
         return Registry.registerForHolder(BuiltInRegistries.ARMOR_MATERIAL, location,
                 new ArmorMaterial(typeProtection, enchantability, equipSound, ingredient, layers, toughness, knockbackResistance));
     }

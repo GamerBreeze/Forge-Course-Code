@@ -61,6 +61,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_azurite", has(ModItems.AZURITE.get())).save(recipeOutput);
         trapdoorBuilder(ModBlocks.AZURITE_TRAPDOOR.get(), Ingredient.of(ModItems.AZURITE.get())).group("azurite")
                 .unlockedBy("has_azurite", has(ModItems.AZURITE.get())).save(recipeOutput);
+
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

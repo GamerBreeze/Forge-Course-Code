@@ -17,21 +17,21 @@ import java.util.List;
 import java.util.Objects;
 
 public class ChainsawItem extends Item {
-    public ChainsawItem(Properties pProperties) {
-        super(pProperties);
+    public ChainsawItem(Properties properties) {
+        super(properties);
     }
 
     @Override
-    public InteractionResult useOn(UseOnContext pContext) {
-        Level level = pContext.getLevel();
+    public InteractionResult useOn(UseOnContext context) {
+        Level level = context.getLevel();
 
         if(!level.isClientSide()) {
-            if(level.getBlockState(pContext.getClickedPos()).is(BlockTags.LOGS)) {
-                level.destroyBlock(pContext.getClickedPos(), true, pContext.getPlayer());
+            if(level.getBlockState(context.getClickedPos()).is(BlockTags.LOGS)) {
+                level.destroyBlock(context.getClickedPos(), true, context.getPlayer());
 
-                pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level),
-                        ((ServerPlayer) pContext.getPlayer()), item ->
-                        Objects.requireNonNull(pContext.getPlayer()).onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
+                context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level),
+                        ((ServerPlayer) context.getPlayer()), item ->
+                        Objects.requireNonNull(context.getPlayer()).onEquippedItemBroken(item,  EquipmentSlot.MAINHAND));
             }
         }
 
