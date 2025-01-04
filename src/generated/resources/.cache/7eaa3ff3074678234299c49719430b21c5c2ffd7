@@ -1,0 +1,8 @@
+// 1.21	2025-01-01T20:42:47.2939709	Tags for minecraft:block mod id mccourse
+64ba52a0503fe733de3f3907b7f157cb0821a8e3 data/mccourse/tags/block/mineable/paxel.json
+2f5e522fbbb52595a548fe37d1b9275bf4c97ca2 data/minecraft/tags/block/fences.json
+c75062dd3c0569895ff4e1ab1b8f39226040598f data/minecraft/tags/block/fence_gates.json
+5a7efda77630f6aa90a31cd9f77fc19de2c13804 data/minecraft/tags/block/mineable/pickaxe.json
+520b7cb8b8ef875abf10350090921c4c76e76c2d data/minecraft/tags/block/needs_diamond_tool.json
+24caf7f247d5eece0376b028ad3339202fcb2096 data/minecraft/tags/block/needs_iron_tool.json
+4a2a156fe2b9dbb327e7fc5d792386891a755efa data/minecraft/tags/block/walls.json
