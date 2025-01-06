@@ -20,6 +20,7 @@
   "item.mccourse.azurite_boots": "Azurite Boots",
 
   "item.mccourse.azurite_horse_armor": "Azurite Horse Armor",
+  "item.mccourse.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
 
 
   "block.mccourse.azurite_block": "Block of Azurite",
@@ -43,6 +44,8 @@
 
   "block.mccourse.azurite_door": "Azurite Door",
   "block.mccourse.azurite_trapdoor": "Azurite Trapdoor",
+
+  "block.mccourse.azurite_lamp": "Azurite Lamp",
 
 
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",

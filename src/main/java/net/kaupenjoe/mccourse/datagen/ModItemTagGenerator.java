@@ -38,6 +38,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(ItemTags.TRIM_MATERIALS)
                 .add(ModItems.AZURITE.get());
 
-        this.tag(ItemTags.TRIM_TEMPLATES);
+        this.tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
     }
 }

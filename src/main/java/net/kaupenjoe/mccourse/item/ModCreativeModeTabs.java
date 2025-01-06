@@ -43,6 +43,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AZURITE_BOOTS.get());
 
                         output.accept(ModItems.AZURITE_HORSE_ARMOR.get());
+                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
 
                     }).build());
 
@@ -71,6 +72,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.AZURITE_DOOR.get());
                         output.accept(ModBlocks.AZURITE_TRAPDOOR.get());
+
+                        output.accept(ModBlocks.AZURITE_LAMP.get());
                     }).build());
 
 

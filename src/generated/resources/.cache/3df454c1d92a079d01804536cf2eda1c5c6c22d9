@@ -1,4 +1,4 @@
-// 1.21	2025-01-04T21:18:54.5389095	Block States: mccourse
+// 1.21	2025-01-06T17:23:04.2159057	Block States: mccourse
 bbfaa01f68eb5799769daacd3cc8742de0b55dde assets/mccourse/blockstates/azurite_block.json
 80930b2d8d812d82062fd0c751c3f5a4a9facc76 assets/mccourse/blockstates/azurite_button.json
 078f124a805467fb14e16025335317864628c226 assets/mccourse/blockstates/azurite_deepslate_ore.json
@@ -6,6 +6,7 @@ bbfaa01f68eb5799769daacd3cc8742de0b55dde assets/mccourse/blockstates/azurite_blo
 30077132a6f1789fde2c2902ac5e8f4dc6a023e0 assets/mccourse/blockstates/azurite_end_ore.json
 646325dcc3e661bfacfcb824b2d850b00b8110ee assets/mccourse/blockstates/azurite_fence.json
 a0612f5754bc1dc01a894aae7903e512cf6caa55 assets/mccourse/blockstates/azurite_fence_gate.json
+6606839016677721d94bc17c0b6430682430da6e assets/mccourse/blockstates/azurite_lamp.json
 04eaffcf136d6816d0409e14fee7dd32081d69dd assets/mccourse/blockstates/azurite_nether_ore.json
 e721a184113163c7afcea9a90ea88cce860c5a2b assets/mccourse/blockstates/azurite_ore.json
 f8ea10323c901de6aa9feca890c5c1964076ee79 assets/mccourse/blockstates/azurite_pressure_plate.json
@@ -33,6 +34,8 @@ ab0c7a35edc8b1da81481d1a1bf610043b00ef54 assets/mccourse/models/block/azurite_fe
 2c66d0ec4f6d362ec6f5724accec76e8e0b1d7f7 assets/mccourse/models/block/azurite_fence_gate_wall_open.json
 ac93e5b236f90742404074714f09c0126902b71d assets/mccourse/models/block/azurite_fence_post.json
 fdc71d665bb66ac4a4510ebf2b24737752617303 assets/mccourse/models/block/azurite_fence_side.json
+1b49d628e0e81314fbff40df7de89de0076631c6 assets/mccourse/models/block/azurite_lamp_off.json
+13d51b19a4f66d712ba956011a895d5100c4f3de assets/mccourse/models/block/azurite_lamp_on.json
 3f583dbdde8f06dc46d193765554192e282a20b3 assets/mccourse/models/block/azurite_nether_ore.json
 92a92ce6a2c03f505a350da97c3f4593e3f60ecb assets/mccourse/models/block/azurite_ore.json
 efe48436168925de4fb62acef6ce3b4a15f16865 assets/mccourse/models/block/azurite_pressure_plate.json
@@ -53,6 +56,7 @@ c3832457839fb4fefe638fac3993b23b0e0f57b9 assets/mccourse/models/item/azurite_blo
 6d4f57f8e0879e013a75d58467c694b8bfbe9739 assets/mccourse/models/item/azurite_deepslate_ore.json
 73a52af9bafffba98e29e9afa1d3a6f4cda83903 assets/mccourse/models/item/azurite_end_ore.json
 2132fdb71d3c31129ff8e3c3674da4ca73231a29 assets/mccourse/models/item/azurite_fence_gate.json
+dce35fe4229a09e23b27ecfed8f2591c2d39bbcb assets/mccourse/models/item/azurite_lamp.json
 3d194ee3b85a6cca604f04c2dc006dd79d367b6e assets/mccourse/models/item/azurite_nether_ore.json
 2a947c20972ca22597ab9a03658508e769f116b3 assets/mccourse/models/item/azurite_ore.json
 07ea623df9d2043f5ceb80cd39ddc171dbcb2f47 assets/mccourse/models/item/azurite_pressure_plate.json
