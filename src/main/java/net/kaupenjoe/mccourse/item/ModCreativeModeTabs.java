@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_AZURITE.get());
 
                         output.accept(ModItems.CHAINSAW.get());
+
+                        output.accept(ModItems.ONION_SEEDS.get());
                         output.accept(ModItems.ONION.get());
 
                         output.accept(ModItems.AURORA_ASHES.get());
@@ -45,6 +47,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AZURITE_HORSE_ARMOR.get());
                         output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
 
+                        output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.DATA_TABLET.get());
+
+                        output.accept(ModItems.KAUPEN_BOW.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> AZURITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("azurite_blocks_tab",

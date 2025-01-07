@@ -1,4 +1,4 @@
-// 1.21	2025-01-05T20:00:25.8757182	Item Models: mccourse
+// 1.21	2025-01-07T15:45:36.1056551	Item Models: mccourse
 1ce777d01800de4f89188a30f319cab2b5fbf262 assets/mccourse/models/item/aurora_ashes.json
 df3ca36915ce05a651f008eaa893eb1327e22921 assets/mccourse/models/item/azurite.json
 06611df5b83d02b594ebc5c659f09f8732478f45 assets/mccourse/models/item/azurite_axe.json
@@ -59,5 +59,7 @@ d172f1c35ad0070f2f46345edde1610195c479c0 assets/mccourse/models/item/azurite_swo
 1a7bdd49edb411ae3c9efae6d2a92ba93723242d assets/mccourse/models/item/azurite_wall.json
 f2aeca2040ea829b8b6878ebe3a168fcb74381d2 assets/mccourse/models/item/chainsaw.json
 0ba45fa0b9fa861a6995c3a85d8bc1c786ed1fa6 assets/mccourse/models/item/kaupen_armor_trim_smithing_template.json
+23f99234f647aa805541635819a0a2a8b1552d81 assets/mccourse/models/item/metal_detector.json
 a7d5feb86bed77eaacdb1842113cbf06cd21ab3a assets/mccourse/models/item/onion.json
+379adeb21327618043cb68c0051f78353d55dfad assets/mccourse/models/item/onion_seeds.json
 57a81765c0f4b3dbbda0ae3694508d88e52b6568 assets/mccourse/models/item/raw_azurite.json

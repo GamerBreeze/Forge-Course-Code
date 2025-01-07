@@ -71,6 +71,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.AZURITE_HORSE_ARMOR.get());
         basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
 
+        basicItem(ModItems.METAL_DETECTOR.get());
+
+        basicItem(ModItems.ONION_SEEDS.get());
+
     }
 
     // Shoutout to El_Redstoniano for making this
