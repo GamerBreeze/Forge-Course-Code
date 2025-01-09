@@ -5,11 +5,23 @@
   "item.mccourse.onion": "Onion",
   "item.mccourse.aurora_ashes": "Aurora Ashes",
 
+
+  "item.mccourse.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.mccourse.bar_brawl_music_disc_desc": "Bryan Tech - Bar Brawl (CC0)",
+
+
   "item.mccourse.onion_seeds": "Onion Seeds",
   "block.mccourse.onion_crop": "Onion Crop",
 
+  "block.mccourse.catmint": "Catmint",
+  "block.mccourse.potted_catmint": "Potted Catmint",
+
+  "block.mccourse.colored_leaves": "Colored Leaves",
+
   "item.mccourse.metal_detector": "Metal Detector",
   "item.mccourse.data_tablet": "Data Tablet",
+
+  "item.mccourse.radiation_staff": "Radiation Staff",
 
   "item.mccourse.kaupen_bow": "Kaupen Bow",
 
@@ -40,6 +52,8 @@
 
   "block.mccourse.magic_block": "Magic Block",
 
+  "block.mccourse.pedestal": "Pedestal",
+
   "block.mccourse.azurite_stairs": "Azurite Stairs",
   "block.mccourse.azurite_slab": "Azurite Slab",
 
@@ -55,6 +69,8 @@
 
   "block.mccourse.azurite_lamp": "Azurite Lamp",
 
+  "sounds.mccourse.chainsaw_cut": "Chainsaw Sound",
+  "sounds.mccourse.chainsaw_pull": "Pull Chainsaw Sound",
 
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.mccourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",

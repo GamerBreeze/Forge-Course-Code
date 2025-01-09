@@ -75,6 +75,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.ONION_SEEDS.get());
 
+        simpleBlockBlockItem(ModBlocks.CATMINT);
+
+        basicItem(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
     }
 
     // Shoutout to El_Redstoniano for making this
@@ -145,6 +149,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.parse("item/handheld")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simpleBlockBlockItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {

@@ -24,7 +24,6 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.CHAINSAW.get());
 
-                        output.accept(ModItems.ONION_SEEDS.get());
                         output.accept(ModItems.ONION.get());
 
                         output.accept(ModItems.AURORA_ASHES.get());
@@ -51,6 +50,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DATA_TABLET.get());
 
                         output.accept(ModItems.KAUPEN_BOW.get());
+
+                        output.accept(ModItems.ONION_SEEDS.get());
+
+                        output.accept(ModBlocks.CATMINT.get());
+
+                        output.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
+                        output.accept(ModItems.RADIATION_STAFF.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> AZURITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("azurite_blocks_tab",
@@ -80,6 +87,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AZURITE_TRAPDOOR.get());
 
                         output.accept(ModBlocks.AZURITE_LAMP.get());
+
+                        output.accept(ModBlocks.COLORED_LEAVES.get());
+
+                        output.accept(ModBlocks.PEDESTAL.get());
                     }).build());
 
 

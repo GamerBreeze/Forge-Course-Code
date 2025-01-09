@@ -1,4 +1,4 @@
-// 1.21	2025-01-07T15:45:36.1056551	Item Models: mccourse
+// 1.21	2025-01-09T18:58:38.2342282	Item Models: mccourse
 1ce777d01800de4f89188a30f319cab2b5fbf262 assets/mccourse/models/item/aurora_ashes.json
 df3ca36915ce05a651f008eaa893eb1327e22921 assets/mccourse/models/item/azurite.json
 06611df5b83d02b594ebc5c659f09f8732478f45 assets/mccourse/models/item/azurite_axe.json
@@ -57,6 +57,8 @@ ee7ed2f5638c0154ee1c22a07d2e4e51311310bd assets/mccourse/models/item/azurite_pax
 b43616392081bea1d5dcd0923675688b05af5628 assets/mccourse/models/item/azurite_shovel.json
 d172f1c35ad0070f2f46345edde1610195c479c0 assets/mccourse/models/item/azurite_sword.json
 1a7bdd49edb411ae3c9efae6d2a92ba93723242d assets/mccourse/models/item/azurite_wall.json
+882c909d777501be9a665907319c212c6837ebd6 assets/mccourse/models/item/bar_brawl_music_disc.json
+376115c42226cc933c79830495be6b1b5629514b assets/mccourse/models/item/catmint.json
 f2aeca2040ea829b8b6878ebe3a168fcb74381d2 assets/mccourse/models/item/chainsaw.json
 0ba45fa0b9fa861a6995c3a85d8bc1c786ed1fa6 assets/mccourse/models/item/kaupen_armor_trim_smithing_template.json
 23f99234f647aa805541635819a0a2a8b1552d81 assets/mccourse/models/item/metal_detector.json

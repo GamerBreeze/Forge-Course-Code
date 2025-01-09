@@ -66,8 +66,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
         customLamp();
 
         makeCrop(((CropBlock) ModBlocks.ONION_CROP.get()), "onion_crop_stage", "onion_crop_stage");
+
+        simpleBlock(ModBlocks.CATMINT.get(),
+                models().cross(blockTexture(ModBlocks.CATMINT.get()).getPath(), blockTexture(ModBlocks.CATMINT.get())).renderType("cutout"));
+        simpleBlock(ModBlocks.POTTED_CATMINT.get(),
+                models().singleTexture("potted_catmint", ResourceLocation.parse("flower_pot_cross"), "plant",
+                        blockTexture(ModBlocks.CATMINT.get())).renderType("cutout"));
+
+        leavesBlock(ModBlocks.COLORED_LEAVES);
 }
 
+    private void leavesBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().singleTexture(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), ResourceLocation.parse("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
+    }
 
 public void makeCrop(CropBlock block, String modelName, String textureName) {
     Function<BlockState, ConfiguredModel[]> function = state -> states(state, block, modelName, textureName);
