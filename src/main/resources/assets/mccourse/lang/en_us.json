@@ -51,10 +51,28 @@
   "block.mccourse.azurite_nether_ore": "Azurite Nether Ore",
 
   "block.mccourse.magic_block": "Magic Block",
-
   "block.mccourse.pedestal": "Pedestal",
 
   "effect.mccourse.slimey": "Slimey",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
+  "painting.mccourse.world.title": "World",
+  "painting.mccourse.world.author": "NanoAttack",
+  "painting.mccourse.shrimp.title": "Shrimp",
+  "painting.mccourse.shrimp.author": "NanoAttack",
+  "painting.mccourse.saw_them.title": "Saw Them",
+  "painting.mccourse.saw_them.author": "NanoAttack",
+
+  "painting.mccourse.wanderer.title": "Wanderer",
+  "painting.mccourse.wanderer.author": "PlatinumG17",
+
+  "entity.minecraft.villager.mccourse.kaupenger": "Kaupenger",
+
+  "item.mccourse.azurite_water_bucket": "Azurite Water Bucket",
+
 
   "block.mccourse.azurite_stairs": "Azurite Stairs",
   "block.mccourse.azurite_slab": "Azurite Slab",

@@ -4,12 +4,17 @@ import com.mojang.logging.LogUtils;
 import net.kaupenjoe.mccourse.block.ModBlocks;
 import net.kaupenjoe.mccourse.component.ModDataComponentTypes;
 import net.kaupenjoe.mccourse.effect.ModEffects;
+import net.kaupenjoe.mccourse.fluid.ModFluidTypes;
+import net.kaupenjoe.mccourse.fluid.ModFluids;
 import net.kaupenjoe.mccourse.item.ModCreativeModeTabs;
 import net.kaupenjoe.mccourse.item.ModItems;
+import net.kaupenjoe.mccourse.potion.ModPotions;
 import net.kaupenjoe.mccourse.sound.ModSounds;
 import net.kaupenjoe.mccourse.util.ModItemProperties;
+import net.kaupenjoe.mccourse.villager.ModVillagers;
 import net.minecraft.client.renderer.BiomeColors;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.FoliageColor;
 import net.minecraft.world.level.block.Blocks;
@@ -54,6 +59,13 @@ public class MCCourseMod {
         ModSounds.register(modEventBus);
         ModEffects.register(modEventBus);
 
+        ModPotions.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
+
+        ModFluidTypes.register(modEventBus);
+        ModFluids.register(modEventBus);
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         // Register the item to a creative tab
@@ -91,6 +103,11 @@ public class MCCourseMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             ModItemProperties.addCustomItemProperties();
+
+            event.enqueueWork(() -> {
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_AZURITE_WATER.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_AZURITE_WATER.get(), RenderType.translucent());
+            });
         }
 
         @SubscribeEvent
@@ -102,6 +119,7 @@ public class MCCourseMod {
         @SubscribeEvent
         public static void registerColoredItems(RegisterColorHandlersEvent.Item event) {
             event.register((pStack, pTintIndex) -> FoliageColor.getDefaultColor(), ModBlocks.COLORED_LEAVES.get());
+
         }
     }
 }

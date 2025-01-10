@@ -2,6 +2,7 @@ package net.kaupenjoe.mccourse.datagen;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.block.ModBlocks;
+import net.kaupenjoe.mccourse.fluid.ModFluids;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
@@ -78,6 +79,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockBlockItem(ModBlocks.CATMINT);
 
         basicItem(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+        basicItem(ModFluids.AZURITE_WATER_BUCKET.get());
 
     }
 
