@@ -71,6 +71,8 @@
 
   "entity.minecraft.villager.mccourse.kaupenger": "Kaupenger",
 
+  "enchantment.mccourse.lightning_striker": "Lightning Striker",
+
   "item.mccourse.azurite_water_bucket": "Azurite Water Bucket",
 
 
@@ -88,6 +90,8 @@
   "block.mccourse.azurite_trapdoor": "Azurite Trapdoor",
 
   "block.mccourse.azurite_lamp": "Azurite Lamp",
+
+  "block.mccourse.crystallizer": "Crystallizer",
 
   "sounds.mccourse.chainsaw_cut": "Chainsaw Sound",
   "sounds.mccourse.chainsaw_pull": "Pull Chainsaw Sound",

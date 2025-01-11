@@ -94,6 +94,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.COLORED_LEAVES.get());
 
                         output.accept(ModBlocks.PEDESTAL.get());
+
+                        output.accept(ModBlocks.CRYSTALLIZER.get());
                     }).build());
 
 

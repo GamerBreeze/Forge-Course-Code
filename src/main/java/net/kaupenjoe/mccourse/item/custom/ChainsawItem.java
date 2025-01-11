@@ -3,6 +3,7 @@ package net.kaupenjoe.mccourse.item.custom;
 import net.kaupenjoe.mccourse.component.ModDataComponentTypes;
 import net.kaupenjoe.mccourse.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -40,6 +41,11 @@ public class ChainsawItem extends Item {
 
                 context.getLevel().playSound(null, context.getPlayer().blockPosition(), ModSounds.CHAINSAW_CUT.get(),
                         SoundSource.PLAYERS, 1f, 1f);
+
+                // Server Particles (Via Server, Seen by all players)
+                ((ServerLevel) context.getLevel()).sendParticles(ParticleTypes.SMOKE, context.getClickedPos().getX() + 0.5f, context.getClickedPos().getY() + 1.0f,
+                        context.getClickedPos().getZ() + 0.5f, 150, 0.0, 0.05, 0.0, 0.45f);
+
             } else {
                 context.getLevel().playSound(null, context.getPlayer().blockPosition(), ModSounds.CHAINSAW_PULL.get(),
                         SoundSource.PLAYERS, 1f, 1f);
