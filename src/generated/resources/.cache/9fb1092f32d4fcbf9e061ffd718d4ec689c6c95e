@@ -1,10 +1,9 @@
-// 1.21	2025-01-05T20:00:25.8737198	Recipes
+// 1.21	2025-01-12T11:12:52.1808371	Recipes
 71967e916c086ea570683b4010a1fb3864832262 data/mccourse/advancement/recipes/building_blocks/azurite_slab.json
 151a439f2b90cffc17ba39bb660d4401fd1f414d data/mccourse/advancement/recipes/building_blocks/azurite_stairs.json
 20bfc970e2fe5149e5cbe135c8bd09e91f273f80 data/mccourse/advancement/recipes/building_blocks/azurite_wall.json
 17f7261ef4628233d9a211dfa57a467abe00d650 data/mccourse/advancement/recipes/decorations/azurite_fence.json
 ad93eb0dbd6f87bd55730d7f442f59959b502b02 data/mccourse/advancement/recipes/misc/azurite.json
-a136aa65772a03e5458d70cac9ec2391d87d4f06 data/mccourse/advancement/recipes/misc/azurite_2.json
 d8b51cc95a0b2146bec6de9217ae7a2833fc8892 data/mccourse/advancement/recipes/misc/azurite_block.json
 9bcbaec50832c15f723d97bd900de9a676b0f91e data/mccourse/advancement/recipes/misc/azurite_from_blasting_azurite_deepslate_ore.json
 8d63587866abc8faff756d67434212d5ebfa7a42 data/mccourse/advancement/recipes/misc/azurite_from_blasting_azurite_end_ore.json
@@ -23,7 +22,6 @@ e3805522dd16fb4465d06c911d3d36cfb60d4e55 data/mccourse/advancement/recipes/redst
 cec2d46fa10bb66218817cb2c9299d66e0acb796 data/mccourse/advancement/recipes/redstone/azurite_pressure_plate.json
 c312ab90472083938ce2877c813a318b7e3ce070 data/mccourse/advancement/recipes/redstone/azurite_trapdoor.json
 f86026e8dd4e72a04f8cc47ead359f0797e711f4 data/mccourse/recipe/azurite.json
-f99e9631ab14a1afdf3a0aa064722a63f34994e8 data/mccourse/recipe/azurite_2.json
 2dac7f5f8784250498347a996ee711b7f13afd63 data/mccourse/recipe/azurite_block.json
 713f6c6c58bf41719e8faa1f089ef5273605b706 data/mccourse/recipe/azurite_button.json
 3d45a692984db316af3495ebda2c68a4cd2815bc data/mccourse/recipe/azurite_door.json

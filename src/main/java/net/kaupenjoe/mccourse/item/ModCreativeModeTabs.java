@@ -2,6 +2,7 @@ package net.kaupenjoe.mccourse.item;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.block.ModBlocks;
+import net.kaupenjoe.mccourse.enchantment.ModEnchantments;
 import net.kaupenjoe.mccourse.fluid.ModFluids;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -61,6 +62,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RADIATION_STAFF.get());
 
                         output.accept(ModFluids.AZURITE_WATER_BUCKET.get());
+
+                        output.accept(ModItems.SOUL_STAFF.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> AZURITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("azurite_blocks_tab",

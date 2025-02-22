@@ -1,78 +1,31 @@
-[11jan.2025 21:42:45.166] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\nordq\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, mccourse, --all, --output, C:\Users\nordq\Desktop\forge-course\src\generated\resources, --existing, C:\Users\nordq\Desktop\forge-course\src\main\resources]
-[11jan.2025 21:42:45.170] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
-[11jan.2025 21:42:45.171] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
-[11jan.2025 21:42:45.282] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[11jan.2025 21:42:45.373] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/nordq/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[11jan.2025 21:42:46.176] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[11jan.2025 21:42:46.905] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\nordq\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, mccourse, --all, --output, C:\Users\nordq\Desktop\forge-course\src\generated\resources, --existing, C:\Users\nordq\Desktop\forge-course\src\main\resources]
-[11jan.2025 21:42:51.639] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[11jan.2025 21:42:51.639] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[11jan.2025 21:42:51.661] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[11jan.2025 21:42:52.253] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mccourse]
-[11jan.2025 21:42:52.325] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nordq/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21/forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[11jan.2025 21:42:52.326] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nordq/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21/forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[11jan.2025 21:42:52.449] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Duplicate provider: Registries
-	Index: 1
-	Listeners:
-		0: NORMAL
-		1: ASM: class net.kaupenjoe.mccourse.datagen.DataGenerators gatherData(Lnet/minecraftforge/data/event/GatherDataEvent;)V
-java.lang.IllegalStateException: Duplicate provider: Registries
-	at TRANSFORMER/minecraft@1.21/net.minecraft.data.DataGenerator.addProvider(DataGenerator.java:82)
-	at TRANSFORMER/mccourse@0.0.1/net.kaupenjoe.mccourse.datagen.DataGenerators.gatherData(DataGenerators.java:37)
-	at TRANSFORMER/mccourse@0.0.1/net.kaupenjoe.mccourse.datagen.__DataGenerators_gatherData_GatherDataEvent.invoke(.dynamic)
-	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:48)
-	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
-	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:290)
-	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21-51.0.33/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.lambda$runEventGenerator$28(ModLoader.java:319)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:227)
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.runEventGenerator(ModLoader.java:319)
-	at TRANSFORMER/forge@51.0.33/net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:72)
-	at TRANSFORMER/minecraft@1.21/net.minecraft.data.Main.main(Main.java:101)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21-51.0.33/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91)
-	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21-51.0.33/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75)
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77)
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97)
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.run(Launcher.java:116)
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.main(Launcher.java:75)
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
-	at net.minecraftforge.bootstrap@2.1.3/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133)
-	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53)
-	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19)
-
-[11jan.2025 21:42:52.450] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event net.minecraftforge.data.event.GatherDataEvent@5324647 dispatch for modid mccourse
-java.lang.IllegalStateException: Duplicate provider: Registries
-	at TRANSFORMER/minecraft@1.21/net.minecraft.data.DataGenerator.addProvider(DataGenerator.java:82) ~[forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar%230!/:?]
-	at TRANSFORMER/mccourse@0.0.1/net.kaupenjoe.mccourse.datagen.DataGenerators.gatherData(DataGenerators.java:37) ~[main/:?]
-	at TRANSFORMER/mccourse@0.0.1/net.kaupenjoe.mccourse.datagen.__DataGenerators_gatherData_GatherDataEvent.invoke(.dynamic) ~[main/:?]
-	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:48) ~[eventbus-6.2.8.jar:?]
-	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:304) ~[eventbus-6.2.8.jar:?]
-	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:290) ~[eventbus-6.2.8.jar:?]
-	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21-51.0.33/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.21-51.0.33.jar:51.0.33]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.lambda$runEventGenerator$28(ModLoader.java:319) ~[fmlcore-1.21-51.0.33.jar:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:227) ~[fmlcore-1.21-51.0.33.jar:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.runEventGenerator(ModLoader.java:319) ~[fmlcore-1.21-51.0.33.jar:1.0]
-	at TRANSFORMER/forge@51.0.33/net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:72) ~[forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar:?]
-	at TRANSFORMER/minecraft@1.21/net.minecraft.data.Main.main(Main.java:101) ~[forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21-51.0.33/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.21-51.0.33.jar!/:?]
-	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21-51.0.33/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.21-51.0.33.jar!/:?]
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!/:?]
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!/:?]
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!/:?]
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!/:?]
-	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!/:?]
-	at net.minecraftforge.bootstrap@2.1.3/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3]
-	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3]
-	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3]
+[12jan.2025 11:12:44.345] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\nordq\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, mccourse, --all, --output, C:\Users\nordq\Desktop\forge-course\src\generated\resources, --existing, C:\Users\nordq\Desktop\forge-course\src\main\resources]
+[12jan.2025 11:12:44.349] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[12jan.2025 11:12:44.351] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[12jan.2025 11:12:44.450] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[12jan.2025 11:12:44.546] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/nordq/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[12jan.2025 11:12:45.364] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[12jan.2025 11:12:46.108] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\nordq\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, mccourse, --all, --output, C:\Users\nordq\Desktop\forge-course\src\generated\resources, --existing, C:\Users\nordq\Desktop\forge-course\src\main\resources]
+[12jan.2025 11:12:50.898] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[12jan.2025 11:12:50.898] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[12jan.2025 11:12:50.920] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[12jan.2025 11:12:51.462] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mccourse]
+[12jan.2025 11:12:51.527] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nordq/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21/forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[12jan.2025 11:12:51.528] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nordq/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21/forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[12jan.2025 11:12:51.682] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[12jan.2025 11:12:51.890] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 207 ms
+[12jan.2025 11:12:51.890] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[12jan.2025 11:12:51.938] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 46 ms
+[12jan.2025 11:12:51.938] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id mccourse
+[12jan.2025 11:12:51.954] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id mccourse finished after 16 ms
+[12jan.2025 11:12:51.954] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id mccourse
+[12jan.2025 11:12:51.956] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id mccourse finished after 2 ms
+[12jan.2025 11:12:51.957] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:fluid mod id mccourse
+[12jan.2025 11:12:51.957] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:fluid mod id mccourse finished after 0 ms
+[12jan.2025 11:12:51.957] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: mccourse
+[12jan.2025 11:12:51.996] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: mccourse finished after 38 ms
+[12jan.2025 11:12:51.996] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: mccourse
+[12jan.2025 11:12:52.160] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: mccourse finished after 163 ms
+[12jan.2025 11:12:52.160] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[12jan.2025 11:12:52.179] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 18 ms
+[12jan.2025 11:12:52.179] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 498 ms
+[12jan.2025 11:12:52.187] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 228, old count: 229, new count: 228, removed stale: 1, written: 0

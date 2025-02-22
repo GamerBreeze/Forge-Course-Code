@@ -1,6 +1,7 @@
 package net.kaupenjoe.mccourse.datagen;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
+import net.kaupenjoe.mccourse.enchantment.ModEnchantments;
 import net.kaupenjoe.mccourse.trim.ModTrimMaterials;
 import net.kaupenjoe.mccourse.trim.ModTrimPatterns;
 import net.minecraft.core.HolderLookup;
@@ -15,7 +16,8 @@ import java.util.concurrent.CompletableFuture;
 public class ModDatapackEntries extends DatapackBuiltinEntriesProvider {
     public static final RegistrySetBuilder BUILDER = new RegistrySetBuilder()
             .add(Registries.TRIM_MATERIAL, ModTrimMaterials::bootstrap)
-            .add(Registries.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+            .add(Registries.TRIM_PATTERN, ModTrimPatterns::bootstrap)
+            .add(Registries.ENCHANTMENT, ModEnchantments::bootstrap);
 
     public ModDatapackEntries(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
         super(output, registries, BUILDER, Set.of(MCCourseMod.MOD_ID));
