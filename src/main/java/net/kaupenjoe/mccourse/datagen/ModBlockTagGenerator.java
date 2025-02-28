@@ -47,5 +47,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .addTag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .addTag(BlockTags.MINEABLE_WITH_AXE);
 
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BALSA_LOG.get())
+                .add(ModBlocks.BALSA_WOOD.get())
+                .add(ModBlocks.STRIPPED_BALSA_LOG.get())
+                .add(ModBlocks.STRIPPED_BALSA_WOOD.get());
+
     }
 }

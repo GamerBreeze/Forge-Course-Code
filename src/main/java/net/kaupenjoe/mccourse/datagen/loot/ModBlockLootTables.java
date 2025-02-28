@@ -73,6 +73,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.PEDESTAL.get());
 
         this.dropSelf(ModBlocks.CRYSTALLIZER.get());
+
+        this.dropSelf(ModBlocks.BALSA_LOG.get());
+        this.dropSelf(ModBlocks.BALSA_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_BALSA_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_BALSA_WOOD.get());
+        this.dropSelf(ModBlocks.BALSA_PLANKS.get());
+        this.dropSelf(ModBlocks.BALSA_SAPLING.get());
+
+        this.add(ModBlocks.BALSA_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.BALSA_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

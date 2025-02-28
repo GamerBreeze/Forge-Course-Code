@@ -1,6 +1,7 @@
 package net.kaupenjoe.mccourse.datagen;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
+import net.kaupenjoe.mccourse.block.ModBlocks;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.kaupenjoe.mccourse.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -40,5 +41,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BALSA_LOG.get().asItem())
+                .add(ModBlocks.BALSA_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_BALSA_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_BALSA_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.BALSA_PLANKS.get().asItem());
     }
 }

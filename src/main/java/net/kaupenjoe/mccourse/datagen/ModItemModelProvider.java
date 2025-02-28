@@ -82,7 +82,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModFluids.AZURITE_WATER_BUCKET.get());
 
         horizontalBlockItem(ModBlocks.CRYSTALLIZER);
+
+        saplingItem(ModBlocks.BALSA_SAPLING);
     }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID, "block/" + item.getId().getPath()));
+    }
+
 
     private ItemModelBuilder horizontalBlockItem(RegistryObject<Block> block) {
         return getBuilder(block.getId().getPath()).parent(new ModelFile.UncheckedModelFile(ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,

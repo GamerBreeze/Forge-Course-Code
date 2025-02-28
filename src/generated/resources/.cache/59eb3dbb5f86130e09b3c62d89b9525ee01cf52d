@@ -1,4 +1,4 @@
-// 1.21	2025-01-10T22:36:48.1694417	Loot Tables
+// 1.21	2025-02-28T21:06:03.1038218	Loot Tables
 8fc80500a47d2cce00a196fd6ff8706543f42ab7 data/mccourse/loot_table/blocks/azurite_block.json
 fd8888a769a62187bbf443f4ec37445beb35fe98 data/mccourse/loot_table/blocks/azurite_button.json
 64460a477be288b13297f5fad6f0063ac27410c7 data/mccourse/loot_table/blocks/azurite_deepslate_ore.json
@@ -14,9 +14,16 @@ e20c45e983324407d51d631dfafffd0b6ed638c8 data/mccourse/loot_table/blocks/azurite
 9ebbf72bb7f1eb02ca1757b30bb4fa7dfeed9818 data/mccourse/loot_table/blocks/azurite_stairs.json
 e8cbf54a7834780a802bc969d56775514c084997 data/mccourse/loot_table/blocks/azurite_trapdoor.json
 212f12aa82d46f3c766eea6895cec0c825e11151 data/mccourse/loot_table/blocks/azurite_wall.json
+d5a0e5d436a9c37818ac7995c1d0600adbab8441 data/mccourse/loot_table/blocks/balsa_leaves.json
+41702cafc5d272a6d2e85b9e4414d4713da71e05 data/mccourse/loot_table/blocks/balsa_log.json
+ef24b329f86999d5a5b87d8ad7526d015bb3df5d data/mccourse/loot_table/blocks/balsa_planks.json
+91987ce4c4127d7b4e8b5495c03896b993aab009 data/mccourse/loot_table/blocks/balsa_sapling.json
+204993efc117f1bc13b9a9bfe3b62e3958cc0567 data/mccourse/loot_table/blocks/balsa_wood.json
 bffd997c039c6af67f4f4f5a24e0116d94554fba data/mccourse/loot_table/blocks/catmint.json
 847f01dfdaf854700edfeefcf42e2dc0692ca81d data/mccourse/loot_table/blocks/colored_leaves.json
 050f1914267178a4acec4704b2f52b37cae887b1 data/mccourse/loot_table/blocks/crystallizer.json
 a02ae819dd6177b62a20c978abe96bcd433a35dd data/mccourse/loot_table/blocks/onion_crop.json
 cde659bef06aa83db7389e11e50b9b4823081230 data/mccourse/loot_table/blocks/pedestal.json
 8d0520dfab9ddbc7307745f08efa35ed703495d2 data/mccourse/loot_table/blocks/potted_catmint.json
+6bebdc6c2ad6fbb0c56e1de1069e3bea8b076fc0 data/mccourse/loot_table/blocks/stripped_balsa_log.json
+1806477e2b3d0920bc7ea3ab2d64f50084ab6df2 data/mccourse/loot_table/blocks/stripped_balsa_wood.json
